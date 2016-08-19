@@ -68,7 +68,7 @@ Example:
 
                     this._getPassengers(this.input.passengerInfo);
 
-                    this._getPaymentInfo(this.input.payment);
+                    this._getPaymentInfo(this.input.payment, this.input.itinerary.isPostPaid);
 
                     this._getPaymentBreakup(this.input.itinerary.fare.components, this.input.itinerary.isPostPaid);
                 },
