@@ -1,5 +1,11 @@
 {
   "name": "t-car-translator",
+  "version": "0.0.0",
+  "authors": [
+    "Sounak Pal <spal@tavisca.com>",
+    "Manoj Chalode <chalodem@gmail.com>",
+    "Ganesh Ratnaparkhi <ganeshr43@gmail.com>"
+  ],
   "description": "t-car-translator has all the translator component used in car search to book flow. Translator components are used to translate view component response into api component compatible requests.",
   "main": "t-car-translator.html",
   "dependencies": {
